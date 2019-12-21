@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GYMBRO</title>
+    <link rel="shortcut icon" type="image/png" href="image/icons8-curls-with-dumbbells-48.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="gym.css">
+</head>
+
+<body>
+    <header class="my-header">
+        <a href="#" class="burger-menu" onclick="toggle()"><i class="fas fa-bars"></i></a>
+
+        <a href="gym.html" class="my-logo"></a>
+        <nav class="my-navigation" id="burger">
+            <ul>
+                <li><a href="gym.html" class="selected">Начало</a></li>
+                <li><a href="top5-of-the-week.html">Топ 5 статии за месеца</a></li>
+                <li><a href="for-us.html">За нас</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+    <main>
+        <div class="picture"></div>
+        <div class="site-container">
+
+
+            <aside class="my-sidebar" id="filterMenu">
+                <h2 class="category-heading">Категории</h2>
+                <hr class="category-line">
+                <ul class="main-categories">
+                    <li><a href="gym.html" class="selected-second">Всички</a></li>
+                    <li><a href="typesofworkouts.html">Видове тренировки</a>
+                        <ul class="secondary-categories">
+                            <li><a href="strenght.html">силови</a></li>
+                            <li><a href="bodybuilding.html">бодибилдинг</a></li>
+                            <li><a href="functional.html">функционални</a></li>
+                            <li><a href="cardio.html">кардио</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="healthyeating.html">Здравословно хранене</a></li>
+                    <li><a href="supplements.html">Добавки</a></li>
+                    <li><a href="wayoflife.html">Начин на живот</a></li>
+                </ul>
+            </aside>
+            <div class="dropdown buttonDropdown" onclick="toggleSecond()">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Филтри
+                </button>
+                <div class="dropdown-menu" id="dropDownMenu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="gym.html"><b>Всички</b></a>
+                  <a class="dropdown-item" href="typesofworkouts.html"><b>Видове тренировки:</b></a>
+                  <a class="dropdown-item" href="strenght.html">силови</a>
+                  <a class="dropdown-item" href="bodybuilding.html">бодибилдинг</a>
+                  <a class="dropdown-item" href="functional.html">функционални</a>
+                  <a class="dropdown-item" href="cardio.html">кардио</a>
+                  <a class="dropdown-item" href="healthyeating.html"><b>Здравословно хранене</b></a>
+                  <a class="dropdown-item" href="supplements.html"><b>Добавки</b></a>
+                  <a class="dropdown-item" href="wayoflife.html"><b>Начин на живот</b></a>
+                </div>
+              </div>
+            <!-- <a class="filter-menu" onclick="FilterMenu()"><i class="fas fa-sort"></i></a> -->
+            <div class="page-body">
+
+
+                <section class="page-section">
+
+                    <div class="section-container">
+                        <div class="article-list">
+                            <article class="article-item">
+                                <a href="article-strenght-1.html" class="article-picture"
+                                    style="  background-image: url('image/pexels-photo-949132.jpeg');;"></a>
+                                <a href="article-strenght-1.html" class="article-text"><h6>Методът 5x5 - как да увеличим силата си?</h6></a>
+                            </article>
+                            <article class="article-item">
+                                <a href="bodybuilding-article-1.html" class="article-picture"
+                                    style="  background-image: url('image/pexels-photo-1229356.jpeg');;"></a>
+                                <a href="bodybuilding-article-1.html" class="article-text"><h6>Различните видове тренировки и кога да ги използваме?</h6></a>
+                            </article>
+                            <article class="article-item">
+                                <a href="functional-article-1.html" class="article-picture"
+                                    style="  background-image: url('image/pexels-photo-1552252.jpeg');;"></a>
+                                <a href="functional-article-1.html" class="article-text"><h6>Какви са ползите от кръговите тренировки?</h6></a>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="page-section">
+                    <div class="section-container">
+                        <div class="article-list">
+                            <article class="article-item">
+                                <a href="cardio-article-1.html" class="article-picture"
+                                    style="  background-image: url('image/photo-1522844931788-513a2ed46b4b.jpg');;"></a>
+                                <a href="cardio-article-1.html" class="article-text"><h6>Интервално кардио. Защо е по добро от обикновеното?</h6></a>
+                            </article>
+                            <article class="article-item">
+                                <a href="healthyEating-article-1.html" class="article-picture"
+                                    style="  background-image: url('image/pexels-photo-2543270.jpeg');;"></a>
+                                <a href="healthyEating-article-1.html" class="article-text"><h6>Защо балансираната диета е най-важна за тялото ни?
+                                </h6></a>
+                            </article>
+                            <article class="article-item">
+                                <a href="supplements-article-1.html" class="article-picture"
+                                    style="  background-image: url('image/photo-1525093996726-e6bcd6db395a.jpg');;"></a>
+                                <a href="supplements-article-1.html" class="article-text"><h6>Необходими ли са хранителните добавки и как да си помагаме с тях?</h6></a>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <nav aria-label="...">
+                    <ul class="pagination pagination-sm">
+                   
+                        <li class="page-item selected-page"><a class="page-link" href="gym.html">1</a></li>
+                      
+                      <li class="page-item"><a class="page-link" href="gym2.html">2</a></li>
+                    </ul>
+                  </nav>
+            </div>
+          
+        </div>
+       
+        <div class="clearfix"></div>
+    </main>
+    <footer class="my-footer">
+        <a href="gym.html" class="to-top">Начало</a>
+        <a href="gym.html" class="to-top-second">Начало</a>
+        <p class="footer-email"><b>gymbro_blog@abv.bg</b></p>
+        <div class="clearfix"></div>
+    </footer>
+    <script src="gym.js"></script>
+</body>
+
+</html>
